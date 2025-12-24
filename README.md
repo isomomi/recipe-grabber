@@ -9,27 +9,27 @@ A Python tool that accepts a recipe URL, extracts the core data (ingredients and
   - `beautifulsoup4`
 
 ## Usage
-1. Create a venv:
+1. **Create a venv:**
 
-**Windows:**
+Windows:
 ```bash
 python -m venv venv
 .\venv\Scripts\activate
 ```
-**MacOS/Linux:**
+MacOS/Linux:
 ```bash
 python3 -m venv venv
 source venv/bin/activate
 ```
 
 
-2. Install dependencies:
+2. **Install dependencies:**
 ```bash
 pip install -r requirements.txt
 ```
 
 
-3. Run the script from the command line:
+3. **Run the script from the command line:**
 ```bash
 python recipe_scraper.py
 ```
